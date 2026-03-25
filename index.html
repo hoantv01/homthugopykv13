@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hòm Thư Góp Ý Ẩn Danh</title>
+    <title>Hòm Thư Góp Ý</title>
     <style>
         body { font-family: Arial, sans-serif; background-color: #f4f7f6; display: flex; justify-content: center; padding: 50px; }
         .container { background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 100%; max-width: 500px; }
@@ -28,10 +28,27 @@
 			<option value="Hành chính - Quản trị">Phòng Tài vụ - Quản trị</option>
             <option value="Kế toán nhà nước">Phòng Kế toán nhà nước</option>
             <option value="Kiểm soát chi">Phòng Nghiệp vụ 1</option>
-			<option value="Kế toán nhà nước">Phòng Kế toán nhà nước_Huế</option>
+			<option value="Kế toán nhà nước">Phòng Kế toán nhà nước_tại Huế</option>
             <option value="Kiểm soát chi">Phòng Nghiệp vụ 2</option>
             <option value="Tổ chức cán bộ">Phòng Hỗ trợ giao dịch và Công nghệ Thông tin</option>
             <option value="Tin học">Phòng Kiểm tra</option>
+			<option value="Tin học">Phòng giao dịch số 1</option>
+			<option value="Tin học">Phòng giao dịch số 2</option>
+			<option value="Tin học">Phòng giao dịch số 3</option>
+			<option value="Tin học">Phòng giao dịch số 4</option>
+			<option value="Tin học">Phòng giao dịch số 5</option>
+			<option value="Tin học">Phòng giao dịch số 6</option>
+			<option value="Tin học">Phòng giao dịch số 7</option>
+			<option value="Tin học">Phòng giao dịch số 8</option>
+			<option value="Tin học">Phòng giao dịch số 9</option>
+			<option value="Tin học">Phòng giao dịch số 10</option>
+			<option value="Tin học">Phòng giao dịch số 11</option>
+			<option value="Tin học">Phòng giao dịch số 12</option>
+			<option value="Tin học">Phòng giao dịch số 13</option>
+			<option value="Tin học">Phòng giao dịch số 14</option>
+			<option value="Tin học">Phòng giao dịch số 15</option>
+			<option value="Tin học">Phòng giao dịch số 16</option>
+			<option value="Tin học">Phòng giao dịch số 17</option>
         </select>
 
         <label for="message">Nội dung góp ý:</label>
@@ -40,7 +57,7 @@
         <label for="imageUpload">Hình ảnh đính kèm (nếu có):</label>
         <input type="file" id="imageUpload" accept="image/png, image/jpeg, image/jpg">
 
-        <button type="submit" id="submitBtn">Gửi Góp Ý (Ẩn danh)</button>
+        <button type="submit" id="submitBtn">GỬI GÓP Ý</button>
         <div id="status"></div>
     </form>
 </div>
@@ -88,7 +105,7 @@
             })
             .finally(() => {
                 btn.disabled = false;
-                btn.innerText = "Gửi Góp Ý (Ẩn danh)";
+                btn.innerText = "GỬI GÓP Ý";
             });
         };
 
